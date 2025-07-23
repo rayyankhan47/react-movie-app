@@ -9,6 +9,12 @@ export default {
       colors: {
         primary: '#030014',
       },
+      backgroundImage: {
+        'hero-pattern': 'url("/hero-bg.png")',
+      },
+      screens: {
+        xs: '480px',
+      },
     },
   },
   plugins: [],
