@@ -145,6 +145,9 @@
 }
 
 @layer utilities {
+  .bg-light-100\/5 {
+    background-color: rgba(206, 206, 251, 0.05);
+  }
   .text-gradient {
     @apply bg-gradient-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
   }
@@ -159,5 +162,18 @@
     &::-webkit-scrollbar {
       display: none;
     }
+  }
+  .placeholder-light-200::placeholder {
+    color: #a8b5db;
+    opacity: 1;
+  }
+  .outline-hidden {
+    outline: none;
+  }
+  .bg-dark-100 {
+    background-color: #0f0d23;
+  }
+  .shadow-light-100\/10 {
+    box-shadow: 0 1px 3px 0 rgba(206, 206, 251, 0.1), 0 1px 2px 0 rgba(206, 206, 251, 0.1);
   }
 }
